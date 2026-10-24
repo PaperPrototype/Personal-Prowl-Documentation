@@ -1,0 +1,27 @@
+# Animation Graph
+
+## Configuração da máquina de estados
+
+Para executar animações, crie uma **State Machine** e conecte sua saída (`Output`).
+
+![State Machine conectada à saída](../../Images/Pasted%20image%2020261024080319.png)
+
+Adicione states para as animações e um state de transição. **Apenas um state de transição é aceito.** Defina um dos states de animação como padrão (`default`) e deixe-o sem conexão a parâmetros; ele será o state de retorno padrão.
+
+![States de animação e transição](../../Images/Pasted%20image%2020261024080454.png)
+
+## Parâmetros de controle
+
+Use parâmetros personalizados para controlar o fluxo da animação. Esses parâmetros devem ser definidos pelo código.
+
+![Parâmetros personalizados](../../Images/Pasted%20image%2020261024080609.png)
+
+A API de atribuição usa o prefixo `Set`, seguido pelo tipo de dado correspondente.
+
+![Métodos de atribuição de parâmetros](../../Images/Pasted%20image%2020261024080724.png)
+
+O primeiro argumento do método/função deve corresponder ao nome do parâmetro no Animation Graph. O segundo argumento deve corresponder ao tipo de dado desse parâmetro.
+
+## Recomendação
+
+Evite usar strings literais (`raw strings`) para identificar parâmetros. Considere usar `enum` e um `switch` para retornar o nome correto do parâmetro, ou constantes (`const`) se preferir uma abordagem mais simples. Isso reduz erros de digitação e facilita a manutenção.
