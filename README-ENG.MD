@@ -16,3 +16,11 @@ A personal study and documentation repository for the **Prowl Engine**. It conta
 ## Images
 
 Images used in the notes are stored in the [`Images`](Images/) folder. The documents use relative paths to display them; keep this folder alongside the Markdown files when copying or downloading the content.
+
+## Contributing
+
+Everyone is welcome to contribute corrections, improvements, or new notes. Whenever possible, keep content clear, base it on verifiable information, and link images using relative paths. As this is an independent project, contributions do not represent official Prowl Engine documentation.
+
+## AI-generated content disclaimer
+
+**AI-generated content and code are allowed, but must be carefully reviewed before submission. Contributors are responsible for their work and must check it for errors, inaccurate information, or missing information.**

@@ -16,3 +16,11 @@ Repositório pessoal de estudo e documentação da **Prowl Engine**. Aqui regist
 ## Imagens
 
 As imagens usadas nas notas ficam na pasta [`Images`](Images/). Os documentos usam caminhos relativos para exibi-las; mantenha essa pasta junto com os arquivos Markdown ao copiar ou baixar o conteúdo.
+
+## Contribua
+
+Todos são bem-vindos para contribuir com correções, melhorias ou novas anotações. Sempre que possível, mantenha o conteúdo claro, baseado em informações verificáveis e as imagens vinculadas por caminhos relativos. Como este é um projeto independente, as contribuições não representam documentação oficial da Prowl Engine.
+
+## Aviso sobre conteúdo gerado por IA
+
+**Conteúdo e código gerados por inteligência artificial são permitidos, mas devem ser revisados cuidadosamente antes da contribuição. Quem contribui é responsável pelo resultado e deve verificar possíveis erros, informações incorretas ou faltantes.**
